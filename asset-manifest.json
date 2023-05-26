@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6c6181a0.css",
+    "main.js": "/static/js/main.11c10d3a.js",
+    "static/js/496.30fe5b10.chunk.js": "/static/js/496.30fe5b10.chunk.js",
+    "static/media/space-grotesk-latin-ext-400-normal.woff": "/static/media/space-grotesk-latin-ext-400-normal.1ec0ba838a44f0a8da35.woff",
+    "static/media/space-grotesk-latin-400-normal.woff": "/static/media/space-grotesk-latin-400-normal.a241165d530c13dc0ca7.woff",
+    "static/media/space-grotesk-latin-400-normal.woff2": "/static/media/space-grotesk-latin-400-normal.0a4ba2bd1f7894e1cc0b.woff2",
+    "static/media/space-grotesk-latin-ext-400-normal.woff2": "/static/media/space-grotesk-latin-ext-400-normal.05e3af65b5da2af347ad.woff2",
+    "static/media/space-grotesk-vietnamese-400-normal.woff": "/static/media/space-grotesk-vietnamese-400-normal.f971e8522d1a432be3a7.woff",
+    "static/media/space-grotesk-vietnamese-400-normal.woff2": "/static/media/space-grotesk-vietnamese-400-normal.799f8d2e84c3f8dd8ca1.woff2",
+    "index.html": "/index.html",
+    "main.6c6181a0.css.map": "/static/css/main.6c6181a0.css.map",
+    "main.11c10d3a.js.map": "/static/js/main.11c10d3a.js.map",
+    "496.30fe5b10.chunk.js.map": "/static/js/496.30fe5b10.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c6181a0.css",
+    "static/js/main.11c10d3a.js"
+  ]
+}
