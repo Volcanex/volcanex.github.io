@@ -11,24 +11,22 @@ const App = () => {
                 <Firework />
             </div>
             <div className={styles['overlay-content']}>
-                <h2 style={{ fontFamily: 'Space Grotesk, sans-serif', fontSize: '1em' }}>
+                <h2 style={{ fontFamily: 'Space Grotesk, sans-serif', fontSize: '0.7em' }}>
                     Happy Birthday from everyone!
                 </h2>
                 
-                <h1 style={{ fontFamily: 'Space Grotesk, sans-serif', fontSize: '5em', color: 'white' }}>
+                <h1 style={{ fontFamily: 'Space Grotesk, sans-serif', fontSize: '3em', color: 'white' }}>
                     Keskesay.co.uk
                 </h1>
                 
-
-                <h1 style={{ fontFamily: 'Space Grotesk, sans-serif', fontSize: '2em' }}>AND</h1>
+                <h1 style={{ fontFamily: 'Space Grotesk, sans-serif', fontSize: '1.5em' }}>AND</h1>
 
                 <h1 style={{ fontFamily: 'Space Grotesk, sans-serif', fontSize: '4em', color: 'lightblue'}}>
                     Ableton Wavetable
                 </h1>
-                <h2 style={{ fontFamily: 'Space Grotesk, sans-serif', fontSize: '1em' }}>
-                    
-                </h2>
+                
                 <Ableton />
+                
             </div>
         </div>
     );
