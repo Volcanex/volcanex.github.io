@@ -1,12 +1,12 @@
-/* Firework.css */
-body, html {
+body,
+html {
   width: 100%;
-  height: 100vh;
+  height: 100vh; /* Updated to 200% of viewport height */
   margin: 0;
 }
 
 #canvas {
-  height: 100%;
+  height: 100vh; /* Updated to 200% of viewport height */
   width: 100%;
   background-color: black;
 }

@@ -90,7 +90,7 @@ class Particle {
         ctx.globalAlpha = this.alpha;
         ctx.fillStyle = `rgba(${this.R},${this.G},${this.B})`;
         ctx.beginPath();
-        ctx.arc(this.x, this.y, 2, 0, Math.PI * 2, false);
+        ctx.arc(this.x, this.y, 3, 0, Math.PI * 2, false);
         ctx.fill();
         ctx.restore();
       }
@@ -142,7 +142,7 @@ const FireworkComponent = () => {
           firework.update();
           firework.draw();
           if (firework.boom) {
-            for (let i = 0; i < 100; i++) {
+            for (let i = 0; i < (10+Math.random()*50); i++) {
               particleArray.push(new Particle(firework.x, firework.y, firework.R, firework.G, firework.B, canvasRef.current));
             }
             fireworkArray.splice(index, 1);
@@ -157,7 +157,7 @@ const FireworkComponent = () => {
           }
         });
       
-        if (fireworkArray.length < 5) {
+        if (fireworkArray.length < 2) {
           const x = Math.random() * (canvasRef.current ? canvasRef.current.width : 0);
           const y = canvasRef.current ? canvasRef.current.height : 0;
           const height = Math.floor(Math.random() * 200) + 50;
