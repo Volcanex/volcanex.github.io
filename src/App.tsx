@@ -12,11 +12,13 @@ const App = () => {
             </div>
             <div className={styles['overlay-content']}>
                 <h2 style={{ fontFamily: 'Space Grotesk, sans-serif', fontSize: '1em' }}>
-                    Happy Birthday!
+                    Happy Birthday from everyone!
                 </h2>
+                
                 <h1 style={{ fontFamily: 'Space Grotesk, sans-serif', fontSize: '5em', color: 'white' }}>
                     Keskesay.co.uk
                 </h1>
+                
 
                 <h1 style={{ fontFamily: 'Space Grotesk, sans-serif', fontSize: '2em' }}>AND</h1>
 
@@ -24,7 +26,7 @@ const App = () => {
                     Ableton Wavetable
                 </h1>
                 <h2 style={{ fontFamily: 'Space Grotesk, sans-serif', fontSize: '1em' }}>
-                    Are yours!
+                    
                 </h2>
                 <Ableton />
             </div>
